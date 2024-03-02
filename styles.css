@@ -1,0 +1,55 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/*Modification de la couleur du bouton inscription à la newsletter */
+.btn.custom-color {
+    background-color: hsl(171, 66%, 44%) !important;
+    color: white;
+    border: none;
+}
+
+.texte {
+    font-size: 18px;
+    font-family: Bai Jamjuree;
+    font-weight: 400;
+}
+
+.Présentation_Clipboar {
+    padding: 20px 20px 20px 20px;
+}
+
+.Présentation_Clipboar section {
+    text-align: center;
+}
+
+.Titre {
+    color: hsl(171, 66%, 44%);
+    text-align: center;
+    margin: 30px;
+    padding: 20px 20px 20px 20px;
+    font-weight: 600;
+}
+
+/*Mise en forme des liens ajout d 'important pour prendre le dessus sur boostrap*/
+.nav-link.custom-color:hover,
+dropdown-item.custom-color:hover {
+    color: hsl(233, 100%, 69%) !important;
+    text-decoration: underline;
+}
+
+.nav-link.custom-color {
+    color: hsl(210, 10%, 33%);
+}
+
+
+.dropdown-menu {
+    opacity: 0.7;
+    background-color: transparent !important;
+    border: none;
+}
+
+.dropdown-menu.custom-color:hover {
+    color: transparent !important;
+}

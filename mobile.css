@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+
+    .mobile,
+    desktop {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container-fluid {
+        background-image: url('images/bg-header-mobile.png');
+        text-align: center;
+        background-repeat: no-repeat;
+        width: 100%;
+        background-color: transparent !important;
+    }
+
+    .icone {
+        width: 30px;
+    }
+
+    #partenaires {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .marque {
+        color: hsl(221, 11%, 66%);
+        margin: 50px 50px 50px 50px;
+    }
+
+
+}
