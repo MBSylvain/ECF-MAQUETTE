@@ -1,7 +1,19 @@
 @media screen and (max-width: 768px) {
 
-    .mobile,
-    desktop {
+    .mobile {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    .desktop {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .android {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -29,7 +41,7 @@
 
     .marque {
         color: hsl(221, 11%, 66%);
-        margin: 50px 50px 50px 50px;
+        margin: 40px 40px 40px 40px;
     }
 
 
