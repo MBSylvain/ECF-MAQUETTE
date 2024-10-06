@@ -3,25 +3,27 @@ html {
     width: 100%;
 }
 
-/*Modification de la couleur du bouton inscription à la newsletter */
-.btn.custom-color {
-    background-color: hsl(171, 66%, 44%) !important;
-    color: white;
-    border: none;
+.container-fluid {
+    background-image: url('images/bg-header-mobile.png');
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: transparent !important;
 }
 
 .texte {
-    font-size: 18px;
+    font-size: relative;
     font-family: Bai Jamjuree;
     font-weight: 400;
 }
 
-.Présentation_Clipboar {
-    padding: 15px 15px 15px 15px;
+.windows, .ios, .android, .ubuntu {
+    margin: 30px;
 }
 
-.Présentation_Clipboar section {
-    text-align: center;
+.icone {
+    width: 3vh;
+
 }
 
 .Titre {
@@ -32,12 +34,24 @@ html {
     font-weight: 600;
 }
 
+.image{
+    width: 40vh;
+}
+
+/*Modification de la couleur du bouton inscription à la newsletter */
+.btn.custom-color {
+    background-color: hsl(171, 66%, 44%) !important;
+    color: white;
+    border: none;
+}
+
+
+
 /*Mise en forme des liens ajout d 'important pour prendre le dessus sur boostrap*/
 .nav-link.custom-color:hover,
 dropdown-item.custom-color:hover {
     color: hsl(233, 100%, 69%) !important;
     text-decoration: underline;
-    font-weight: 600;
 }
 
 .nav-link.custom-color {

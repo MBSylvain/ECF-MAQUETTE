@@ -1,48 +1,47 @@
-@media screen and (max-width: 768px) {
-
-    .mobile {
+/* Pour les petits écrans (sm) */
+@media (max-width: 576px) {
+    .mobile, .desktop, .partenaires {
         display: flex;
         flex-direction: column;
         text-align: center;
         width: 100%;
     }
 
-    .desktop {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .android {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .container-fluid {
-        background-image: url('images/bg-header-mobile.png');
-        text-align: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        background-color: transparent !important;
-    }
-
-    .icone {
-        width: 20px;
-    }
-
-    #partenaires {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    }
-
+    
     .marque {
         color: hsl(221, 11%, 66%);
-        margin: 40px 40px 40px 40px;
+        margin: 20px;
+    }
+}
+
+/* Pour les écrans moyens (md) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .mobile, .desktop, .partenaires {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
     }
 
+   
+    .marque {
+        color: hsl(221, 11%, 66%);
+        margin: 30px;
+    }
+}
 
+/* Pour les grands écrans (lg) */
+@media (min-width: 769px) {
+    .mobile, .desktop, .partenaires {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+        width: auto;
+    }
+
+      
+    .marque {
+        color: hsl(221, 11%, 66%);
+        margin: 40px;
+    }
 }
